@@ -49,4 +49,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_REPOSITORY }}:latest
+          tags: ${{ secrets.DOCKERHUB_USUARIO }}/${{ env.DOCKER_REPOSITORY }}:latest
