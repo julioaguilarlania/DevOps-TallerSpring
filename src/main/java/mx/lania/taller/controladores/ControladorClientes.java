@@ -4,6 +4,7 @@ import mx.lania.taller.entidades.Cliente;
 import mx.lania.taller.repositorios.RepositorioClientes;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.validation.Errors;
 
 import jakarta.validation.Valid;
 import java.net.URI;
