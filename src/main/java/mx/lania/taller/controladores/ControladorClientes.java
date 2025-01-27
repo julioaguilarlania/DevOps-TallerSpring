@@ -39,9 +39,10 @@ public class ControladorClientes {
     @PostMapping("clientes")
     public ResponseEntity<Cliente> crear(
             @RequestBody @Valid Cliente nuevoC
-            //, Errors errores
+            , Errors errores
             ) {
         try {
+            //TODO: Manejar errores de validacion
             this.repoClientes.save(nuevoC);
             return ResponseEntity
                     .created(new URI("clientes/" + nuevoC.getClienteId()))
