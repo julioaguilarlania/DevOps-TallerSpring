@@ -72,7 +72,7 @@ public class ControladorVehiculos {
             return ResponseEntity.ok(v);
         }
         catch (Exception ex) {
-            return ResponseEntity.status(400)
+            return ResponseEntity.status(415)
                     .header("ERROR", ex.getMessage())
                     .build();
         }
