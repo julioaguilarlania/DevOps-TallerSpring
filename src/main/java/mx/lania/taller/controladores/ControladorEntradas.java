@@ -20,6 +20,9 @@ import jakarta.servlet.http.HttpSession;
 import java.time.LocalDateTime;
 import java.util.List;
 
+// TODO: QUITAR COMENTARIO
+// EJEMPLO DE CAMBIO
+
 @RestController
 public class ControladorEntradas {
     private static final Logger LOGGER = LoggerFactory.getLogger(ControladorEntradas.class);
